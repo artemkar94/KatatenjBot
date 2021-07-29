@@ -1,1 +1,1 @@
-worker: Katatenj_bot.py
+worker: python Katatenj_bot.py
