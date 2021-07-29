@@ -71,7 +71,7 @@ def bot_messages(request):
                       + first_result['message']['from']['first_name']+': '+'No text')
         get_updates_json(request, results[k-1]['update_id']+1)
     else:
-        print(str(datetime.datetime.utcfromtimestamp(first_result['message']['date']))
+        print(int(time.time()))
         response = requests.get(url_silver)
         result = response.json()
         if len(users)>0:
