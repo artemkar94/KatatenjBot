@@ -81,8 +81,8 @@ def bot_messages(request):
                     Silver_info = result['info']
 
 def main():
-    
-    while True:
+    aaa = 1
+    while aaa == 1:
         bot_messages(url)
         
 main()
