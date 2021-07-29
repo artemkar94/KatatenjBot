@@ -1,8 +1,5 @@
 import requests
-import mysql.connector
 import json
-import datetime
-import time
 
 url = "https://api.telegram.org/bot1905108544:AAH0RyBVX7oSyGL3iybb2MumB47JN0L8moE/"
 url_silver = "https://www.mafiaonline.ru/api/api.php?action=info&param=MrSilver&i=yes"
